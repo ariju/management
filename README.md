@@ -25,16 +25,15 @@ management-a5aae.firebaseapp.com
 ![toppage](assets/images/toppage.jpg)
 
 ### 新規登録画面
-![account](assets/images/account.jpg)
+![account](assets/images/account.png)
 
-### 詳細表示画面
-- BMI画面
+### BMI画面
 ![BMI](assets/images/bmi.png)
 
-- calendar画面
+### calendar画面
 ![calender](assets/images/calendar.png)
 
-- countdowntimer画面
+### countdowntimer画面
 ![countdowntimer](assets/images/countdowntimer.png)
 
 ## 工夫したポイント
@@ -58,13 +57,13 @@ BMIの測定には体重と身長を入力すればBMI指数と標準体重、�
 - FireStore
 
 ### ソース管理
-GitHub
+- GitHub
 
 ### テスト
-Jest
+- Jest
 
 ### エディタ
-VSCode
+- VSCode
 
 ## 課題と今後実装したい機能
 課題としてはfirebaseを使用しての管理。
