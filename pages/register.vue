@@ -15,7 +15,7 @@
                 <template v-if="form.imageUrl.val">
                   <img
                     :src="form.imageUrl.val"
-                    class="w-32 h-32 object-cover border rounded-full"
+                    width=250 height=250
                     @click="selectImage"
                   />
                 </template>
@@ -40,7 +40,7 @@
               >
             </div>
             <label
-              class="block mt-8 mb-2 ml-2 uppercase tracking-wide text-darkGray text-s"
+              class="block mt-8 mb-2 ml-2 uppercase tracking-wide text-darkGray text-s "
             >
               名前
             </label>
