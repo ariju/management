@@ -1,13 +1,11 @@
 <template>
-  <v-parallax height=940 :src="require('@/assets/images/fit.jpg')">
-    <v-main>
-      <v-card >
+  <v-app>
+    <v-main class="content">
+      <v-card>
         <div class="m-4 p-4 bg-white shadow rounded">
           <h2 class="text-2xl text-center text-darkGray">アカウント登録</h2>
           <form @submit.prevent="onSubmit">
-            <div
-              class="flex text-center flex-col w-full h-full mt-8"
-            >
+            <div class="flex text-center flex-col w-full h-full mt-8">
               <div
                 :class="{ 'border-red-500': form.imageUrl.errorMessage }"
                 class="flex items-center justify-center w-32 h-32 bg-gray-200 rounded-full border border-gray-400 "
@@ -15,7 +13,8 @@
                 <template v-if="form.imageUrl.val">
                   <img
                     :src="form.imageUrl.val"
-                    width=250 height=250
+                    width="250"
+                    height="250"
                     @click="selectImage"
                   />
                 </template>
@@ -68,7 +67,7 @@
         </div>
       </v-card>
     </v-main>
-  </v-parallax>
+  </v-app>
 </template>
 
 <script>
@@ -186,3 +185,13 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.content {
+  height: 664px;
+  display: flex;
+  width: 100%;
+  background-size: cover;
+  background-image: url("~@/assets/images/fit.jpg");
+}
+</style>
