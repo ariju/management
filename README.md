@@ -24,19 +24,19 @@ management-a5aae.firebaseapp.com
 
 ## DEMO
 ### トップページ
-![toppage](assets/images/toppage.jpg)
+![toppage](assets/images/toppage2.jpg)
 
 ### 新規登録画面
-![account](assets/images/account.png)
+![account](assets/images/login.png)
 
 ### BMI画面
-![BMI](assets/images/bmi.png)
+![BMI](assets/images/bmi2.png)
 
 ### calendar画面
-![calender](assets/images/calendar.png)
+![calender](assets/images/calendar2.png)
 
 ### countdowntimer画面
-![countdowntimer](assets/images/countdowntimer.png)
+![countdowntimer](assets/images/countdown.png)
 
 ## 工夫したポイント
 カレンダーの記録にはfirebaseを使用して
