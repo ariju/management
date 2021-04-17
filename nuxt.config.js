@@ -29,7 +29,6 @@ export default {
   plugins: [
     '~/plugins/firebase',
     '~/plugins/auth',
-    '~/plugins/user',
     '~/plugins/area',
   ],
 

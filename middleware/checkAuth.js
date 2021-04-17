@@ -1,6 +1,6 @@
 export default async function ({ redirect, app }) {
-  const user = await app.$user()
-  if (!user) {
-    redirect('/register')
+  if (await app.$auth()) {
+    // ログインしていたらユーザー一覧画面にリダイレクト
+    redirect('/toppage/')
   }
 }
