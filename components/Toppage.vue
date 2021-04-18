@@ -11,12 +11,11 @@
             v-text="t"
           />
         </div>
-
         <nuxt />
       </div>
     </div>
     <!-- メイン２ -->
-    <v-card height="680" class="main">
+    <v-card height="380" class="main">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-preview">
@@ -33,16 +32,18 @@
               BMI指数を図る機能とトレーニングの時に使用出来るカウントダウンタイマーが
               ついています。
             </p>
-            <h2 class="text-center ma-6">アプリで出来ること</h2>
-            <v-img
-              src="https://picsum.photos/350/165?random"
-              max-height="125"
-              contain
-              class="grey darken-4"
-            ></v-img>
           </div>
         </div>
       </div>
+    </v-card>
+    <h2 class="text-center ma-6">アプリで出来ること</h2>
+    <v-card>
+      <video
+        :src="require('@/assets/videos/bmivideos.mp4')"
+        loop
+        autoplay
+        muted
+      ></video>
     </v-card>
     <!-- フッター -->
     <v-footer flat tile color="#C0C0C0" class="white--text text-center">
